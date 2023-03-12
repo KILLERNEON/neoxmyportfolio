@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about-heading h2{
+    color: blue;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+    width: 99vw;
+    text-align: center;
+    padding: 10px;
+}
+main .about-me-contrenar{
+    height: auto;
+    padding: 10px;
+    border: 2px solid green;
+    margin-top: 1rem;
+    width: 97vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+main .about-me-contrenar .about-content{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    padding: 10px;
+    border: 1px solid blue;
+}
+main .about-me-contrenar .about-content img{
+    height: 350px;
+    margin-right: 20px;
+}
+main .about-me-contrenar .about-content:hover{
+    box-shadow: 10px 50px 50px green;
+}
+main .about-me-contrenar .about-content .content-value p{
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#m1{
+    color: deeppink;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+#m2{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+#m3{
+    color: rgb(193, 156, 65);
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+#m4{
+    color: rgb(27, 210, 27);
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+#m5{
+    color: blue;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+.gold{
+    color: gold;
+}
+@media screen and (max-width:913px) {
+    main .about-me-contrenar {
+        width: 100vw;
+        height: auto;
+        display: block;
+        margin: auto;
+        padding: 1px;
+        box-sizing: border-box;
+    }
+    main .about-me-contrenar .about-content img{
+        width: 300px;
+        padding: 0px;
+        box-sizing: border-box;
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    body{
+        word-break:normal;
+    }
+    main .about-me-contrenar .about-content{
+        display: block;
+        position: relative;
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+    #m1{
+        font-size: 1.5rem;
+    }
+
+}

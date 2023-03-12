@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SINGUP</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="singup.css">
+</head>
+<body>
+    {{!-- this is the header --}}
+    {{>header}}
+    {{!-- this is the main content of this page --}}
+    <form action="">
+        <div class="content">
+            <label for="">NAME:</label>
+            <input type="text" id="fanme" required name="name" placeholder="Enter Your Name"><br><br>
+            <label for="">EMAIL:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter Your Email"><br><br>
+            <label for="">PHONE:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter Your Phone No."><br><br>
+            <label for="">GENDER:</label>
+            <input type="text" id="gender" name="gender" required placeholder="Enter Your Gender"><br><br>
+            <button id="singup-btn" type="submit">SUBMIT</button><br>
+            <button type="reset">RESET</button>
+        </div>
+    </form>
+    {{!-- this is tjhe footer --}}
+    {{>footer}}
+</body>
+<script src="header.js"></script>
+</html>

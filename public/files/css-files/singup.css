@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    height: auto;
+    padding: 5px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 2px solid blue;
+}
+form .content label{
+    font-size: 1.5rem;
+    color: green;
+}
+form .content input{
+    height: auto;
+    padding: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    border: 1px solid white;
+    cursor: pointer;
+}
+form .content button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 5px;
+    position: relative;
+    width: 95%;
+    text-align: center;
+}
+form .content button:hover{
+    background-color: azure;
+    color: blue;
+}

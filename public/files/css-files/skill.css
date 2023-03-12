@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section .contrenar{
+    height: auto;
+    width: 98vw;
+    padding: 5px;
+    border: 2px solid chartreuse;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+section .contrenar .contrenar-value{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 1px solid green;
+}
+section .contrenar .contrenar-value img{
+    width: 350px;
+}
+section .contrenar .contrenar-value .value h3{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+section .contrenar .contrenar-value .value span{
+    color: blue;
+    font-size: 2rem;
+}
+section .contrenar .contrenar-value .value .bar{
+    height: 20px;
+    width: 250px;
+    border: 1px solid wheat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+section .contrenar .contrenar-value .value .color{
+    height: 18px;
+    position: relative;
+    width: 90%;
+    background: linear-gradient(to right, red, yellow, green);
+}
+@media screen and (max-width:913px) {
+    section .contrenar .contrenar-value{
+        display: block;
+    }
+    section .contrenar{
+        padding: 0;
+    }
+    section .contrenar .contrenar-value .value{
+        margin-left: 1rem;
+    }
+}

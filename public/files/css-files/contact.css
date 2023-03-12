@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#heading-contact{
+    color: gold;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px soldi blue;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.small-text{
+    color: blue;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+section .contrener {
+    height: auto;
+    width:98vw;
+    border: 1px solid white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 5rem;
+    
+}
+section .contrener .contrenar-value img{
+    width: 350px;
+}
+section .contrener .contrenar-value{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+section .contrener .contrenar-value ol li{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+section .contrener .contrenar-value form{
+    width: 350px;
+    height: 400px;
+}
+section .contrener .contrenar-value form textarea{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    border:2px solid rgb(62, 59, 61);
+    background-color: black;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: green;
+}
+section .contrener .contrenar-value form textarea::placeholder{
+    color: green;
+}
+section .contrener .contrenar-value form button{
+    height: 10%;
+    width: 100%;
+    color: white;
+    position: relative;
+    background-color: blue;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+@media screen and (max-width:913px) {
+    section .contrener .contrenar-value{
+        display: block;
+        margin: auto;
+        overflow: hidden;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}

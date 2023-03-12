@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    height: auto;
+    width: 99vw;
+    display: block;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 5px;
+}
+footer h3{
+    color: gold;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 1.5rem;
+}
+footer .contrenar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+footer .contrenar .content .value img{
+    height: 30px;
+    display: inline;
+}
+footer .contrenar .content .value h4{
+    display: inline;
+    position: relative;
+    left: 10px;
+    top: -10px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+footer .contrenar .content .value{
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+/* this is for copy right symble */
+footer #copy{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width:912px) {
+    footer .contrenar{
+        display: block;
+    }
+    footer .contrenar .content .value h4{
+    word-break: break-all;
+    font-size: 1rem;
+    }
+
+}

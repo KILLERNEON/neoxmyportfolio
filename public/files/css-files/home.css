@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.home-contrenar-value{
+    height: auto;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+.animation-contrenar{
+    height: auto;
+    width: auto;
+    align-items: center;
+    margin: auto;
+    animation: circle 20s infinite;
+    animation-delay: 2s;
+    opacity: 1;
+}
+.animation-squre{
+    height:50px ;
+    width: 400px;
+    /* display: flex; */
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    animation: circle 20s ease-in-out infinite;
+    transition-delay: 5s;
+    margin: auto;
+}
+.animation{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: bgcolor 15s ease-in-out infinite;
+
+    animation-delay: 1ms;
+}
+/* hover */
+.animation-contrenar:hover{
+    height:60px;
+    width: 60px;
+    opacity: 0.10;
+    animation: only-bgcolor 7s infinite;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-self: center;
+    top: 50px;
+}
+/* circle animation main div */
+@keyframes circle {
+    0%{
+        z-index: 0;
+        rotate: 0deg;
+    }
+    10%{
+        transform: rotateY(-180deg);
+    }
+     20%{
+        transform: rotateY(180deg);
+     }
+    30%{
+        transform: rotateX(60deg'angle');
+   }
+   40%{
+    transform: rotateZ(45'angle');
+
+   }
+    50%{
+         transform: rotateX(360deg);
+         transform-origin: 50%;
+
+   }
+   60%{
+        transform: rotateX(-45'angle');
+
+   }
+   70%{
+        transform: rotateY(360deg'angle');
+
+   }
+    100%{
+        z-index: 0;
+        rotate: 360deg;
+        
+    }
+}
+/* background and box shadow color/ */
+@keyframes bgcolor {
+    0%{
+        background: linear-gradient(to right, red , yellow, blue);
+        box-shadow: 10px 50px 100px red ;
+        transform: rotateX(360deg);
+        width: 10px;
+        border-radius: 0px;
+        margin: 5px;
+        transform: rotateY(-180deg);
+        height: 10px;
+    }
+    10%{
+        background: linear-gradient(to bottom, blue,black,green );
+        box-shadow: 10px 50px 100px red ;
+        transform: rotateY(-360'angle');
+        opacity: 0.30;
+        width: 50px;
+        border-radius: 50%;
+        margin: 30px;
+        transform: rotateY(360deg'angle');
+
+    }
+    20%{
+        background: linear-gradient(to top, red, pink, 
+        gold);    
+        box-shadow: 10px 50px 100px yellow;
+        width: 10px;
+        border-radius: 0px;
+        margin: 5px;
+        transform: rotateY(360deg'angle');
+
+    }
+    25%{
+        background: linear-gradient(to left, maroon, light,blue);
+        box-shadow: 10px 50px 100px maroon;
+        opacity: 0.80;
+        width: 50px;
+        border-radius: 50%;
+        margin: 30px;
+        transform: rotateY(360deg'angle');
+    }
+    30%{
+        background: linear-gradient(to right, lightgreen, deeppink, violet);
+        box-shadow:10px 50px 100px violet red;
+        width: 10px;
+        border-radius: 0;
+        margin: 5px;
+        transform: rotateX(60deg'angle');
+
+    }
+    35%{
+        background: linear-gradient(to right , dark, blue, green);
+        box-shadow: 10px 50px 100px green;
+        opacity: 0.30;
+        width: 50px;
+        border-radius: 50%;
+        margin: 30px;   
+    }
+    40%{
+        background-color: red;
+        box-shadow: 10px 50px 100px red;
+        width: 10px;
+        border-radius: 0px;
+        margin: 5px;
+
+    } 
+    50%{
+        box-shadow: 10px 50px 100px rgb(13, 64, 55);
+        background-color: aqua;
+        opacity: 0.30;
+        width: 50px;
+        border-radius: 50%;
+        margin: 30px;
+        transform: rotateX(-60deg'angle');
+
+    }
+    55%{
+        background: linear-gradient(to bottom, red, deeppink, violet);
+        box-shadow: 10px 50px 100px rgb(112, 5, 76);
+        width: 10px;
+        border-radius: 0px;
+        margin: 200px;
+        transform: rotateX(180deg'angle');
+
+
+    }
+    60%{
+        background: linear-gradient(to bottom, white, red, blue);
+        box-shadow: 10px 50px 100px red;
+        opacity: 0.30;
+        width: 50px;
+        border-radius: 50%;
+        margin: 30px;
+        transform: rotateY(360deg'angle');
+        
+    }
+    65%{
+        background-color: purple;
+        box-shadow: 10px 50px 100px rgb(94, 6, 49);
+        width: 10px;
+        border-radius: 0px;
+        margin: 5px;
+        transform: rotateX(60deg'angle');
+
+        
+    }
+    70%{
+        background-color: chartreuse;
+        box-shadow: 10px 50px 100px rgb(228, 120, 151);
+        opacity: 0.80;
+        width: 50px;
+        border-radius: 50%;
+        margin: 30px;
+        transform: rotateX(180deg'angle');
+
+
+    }
+    75%{
+        background-color: rgb(177, 220, 103);
+        box-shadow: 10px 50px 100px rgb(41, 215, 99);
+        width: 10px;
+        border-radius: 0px;
+        margin: 5px;
+
+    }
+    80%{
+        background-color: fuchsia;
+        box-shadow: 10px 50px 100px rgb(218, 59, 224);
+        opacity: 0.30;
+        width: 50px;
+        border-radius: 50%;
+        margin: 300px;
+        
+    }
+    85%{
+        background-color: lawngreen;
+        box-shadow: 10px 50px 100px rgb(47, 0, 202);
+        width: 10px;
+        border-radius: 0px;
+        margin: 5px;
+
+    }
+    90%{
+        background-color: mediumblue;
+        box-shadow: 10px 50px 100px red;
+        opacity: 0.50;
+        width: 50px;
+        border-radius: 50%;
+        margin: 30px;
+
+    }
+    95%{
+        background-color: yellow;
+        box-shadow: 10px 50px 100px rgb(235, 245, 53);
+        width: 100px;
+        height: 310px;
+        border-radius: 50px;
+        margin: 5px;
+        opacity: 0.10px;
+    }
+    100%{
+        background-color: dodgerblue;
+        box-shadow: 10px 50px 100px rgb(5, 112, 129);
+        width: 0px;
+        opacity: 0;
+        border-radius: 50%;
+        margin: 30px;
+    }
+    
+}
+@keyframes only-bgcolor {
+    0%{
+        background-color: red;
+    }
+    10%{
+        background-color: rgb(0, 255, 21);
+
+    }
+    20%{
+        background-color: gold;
+    }
+    30%{
+        background-color: deeppink;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+@media screen and (max-width:550px) {
+    body{
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+    }
+    .total-animation{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+        width: 100vw;
+    }
+    .animation{
+        min-height: 10px;
+        max-height: 50px;
+        min-width: 10px;
+        max-width: 50px;
+    }
+}

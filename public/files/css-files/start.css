@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(15, 5, 55);
+    color: beige;
+}
+.main-start{
+    display: block;
+    align-items: center;
+    height: 300px;
+    width:550px;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    box-shadow: 10px 10px 20px blue;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px;
+    color: gold;
+}
+.main-start:hover{
+    box-shadow: 10px 10px 150px rgb(12, 6, 167);
+}
+#box-click{
+    height: auto;
+    padding: 10px;
+    list-style: none;
+    color: chartreuse;
+    font-size: 1.5rem;
+    background-color: rgb(3, 43, 79);
+    border-radius:20px ;
+    margin: 10px;
+    box-shadow: 5px 5px 25px rgb(25, 163, 9);
+}
+#box-click:hover{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 0px 50px rgb(25, 163, 9);
+    
+}

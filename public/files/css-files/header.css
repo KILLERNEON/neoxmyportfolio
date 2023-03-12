@@ -1,0 +1,211 @@
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font2{
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+header{
+    height: auto;
+    padding: 5px;
+    width: 99vw;
+    display: none;
+    margin: auto;
+    align-items: center;
+    background-color: beige;
+    box-shadow: 5px 5px 0.10px rgb(41, 39, 39);
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    transition-delay: 2s;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .nav-item{
+    display: flex;
+}
+header nav .nav-button{
+    display: flex;
+}
+header nav .nav-item li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+#nav-opening-button{
+    padding:3px;
+    font-size: 1.5rem;
+    color: rgb(76, 205, 76);
+    background-color: black;
+    /* text-shadow: 5px 10px green; */
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    margin: 10px;
+}
+#nav-opening-button:hover{
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 10px 50px 100px 0.50px rgb(70, 151, 70);
+}
+header nav .nav-button a button, header nav .nav-button button{
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    margin-right: 3px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+header nav .nav-button a button:hover, header nav .nav-button button:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+header nav .me{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5px;
+    background-color: black;
+    box-shadow: 5px 7px 10px inset 0.10px gray;
+}
+header nav .me a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: lightpink;
+    text-decoration: none;
+    animation: onme 15s ease-in-out infinite;
+}
+header nav .nav-item li a{
+    color: black;
+}
+header nav .nav-item li :hover {
+    color: deeppink;
+}
+#nav-opening-button:hover{
+    box-shadow: 50px 50px 100px rgb(15, 162, 15);
+}
+@keyframes onme {
+    0%{
+        color: gold;
+    }
+    5%{
+        color: red;
+    }
+    10%{
+        color: blue;
+    }
+    15%{
+        color: blue;
+    }
+    20%{
+        color: blueviolet;
+    }
+    25%{
+        color: brown;
+    }
+    30%{
+        color: deeppink;
+    }
+    35%{
+        color: yellow;
+    }
+    40%{
+        color: chartreuse;
+    }
+    45%{
+        color: crimson;
+    }
+    50%{
+        color: darkblue;
+    }
+    55%{
+        color: darkgoldenrod;
+    }
+    60%{
+        color: maroon;
+    }
+    65%{
+        color: magenta;
+    }
+    70%{
+        color: wheat;
+    }
+    75%{
+        color: rgb(41, 4, 69);
+    }
+    80%{
+        color: rgb(118, 71, 10);
+    }
+    85%{
+        color: darkorange;
+    }
+    90%{
+        color: darkred;
+    }
+    95%{
+        color: firebrick;
+    }
+    100%{
+        color: violet;
+    }
+}
+@media screen and (max-width:912px) {
+    header{
+        height: auto;
+        padding: 10px;
+        width: 250px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    header nav{
+        display: block;
+    }
+    header nav .nav-item{
+        display: block;
+    }
+    header nav .nav-item li{
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    header nav .nav-button{
+        display: block;
+    }
+    header nav .nav-button a button, header nav .nav-button button{
+        display: block;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    header nav .nav-button a button:hover, header nav .nav-button button:hover{
+        background-color: white;
+        color: blue;
+        border: 1px solid blue;
+    }   
+}
+@media screen and (min-width:913px) {
+    header{
+        display: block;
+    }
+    #nav-opening-button{
+        display: none;
+    }
+    #nav-opening-button:hover{
+        box-shadow: 0px 0px 70px rgba(0, 171, 0, 0.806);
+        
+    }
+
+}

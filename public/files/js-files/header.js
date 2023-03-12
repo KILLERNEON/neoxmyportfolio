@@ -1,0 +1,16 @@
+document.getElementById('nav-opening-button').addEventListener('click',()=>{
+    document.getElementById('nav-opening-button').style.display="none"
+    document.getElementById('headers').style.display="block"
+})
+document.getElementById('close').addEventListener('click',()=>{
+    document.getElementById('nav-opening-button').style.display="block"
+})
+document.getElementById('close').addEventListener('click',()=>{
+    document.getElementById('headers').style.display="none"
+})
+document.getElementById('animation').addEventListener('click',(e)=>{
+    document.getElementById('animation').style.display="none"
+    setTimeout(()=>{
+        document.getElementById('animation').style.display="inline"
+    },3000)
+})
